@@ -9,7 +9,9 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:orientation="vertical">
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="0dp">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -36,10 +38,12 @@
 
         <Button
             android:id="@+id/button"
-            android:layout_width="match_parent"
+            android:layout_width="202dp"
             android:layout_height="wrap_content"
-            android:elevation="15dp"
+            android:elevation="12dp"
+            android:layout_gravity="center"
             android:text="@string/btnOK" />
+
 
         <TextView
             android:id="@+id/output"
